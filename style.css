@@ -1,15 +1,49 @@
+
+body {
+    width: 95%;
+    height: 97%;
+    background: url('./Imagem.avif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #ffcc00;
+}
+h2{
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-bottom: 1rem;
+    padding-bottom: .25rem;
+    border-bottom: 2px solid #ffd700;
+}
+
+button{
+    background-color: #ffd700; /* Golden color for buttons */
+    color: #000;
+    border: none;
+    padding: .5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 input[type=number] {
     width: 2.5rem;
     text-align: center;
+    border-radius: 5px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
-}
-
-h1 {
-    text-align: center;
 }
 
 .menu {
@@ -23,6 +57,10 @@ h1 {
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding: 5px;
+    background-color: #80808090; /* Semi-transparent background */
+    border-radius: 30px;
+    margin: 1rem;
 }
 
 .nome-item {
@@ -48,10 +86,7 @@ h1 {
     display: flex;
 }
 
-body {
-    width: 99.5%;
-    height: 100%;
-}
+
 
 #botaofinalizar {
     width: 100%;
