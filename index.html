@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cardápio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <h1 class="title">Cardápio</h1>
     <div class="menu">
@@ -22,7 +20,6 @@
                 </span>
                 <span class="preco-item">R$7,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Misto</span>
                 <span class="quantidade-item">
@@ -32,7 +29,6 @@
                 </span>
                 <span class="preco-item">R$7,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Frango</span>
                 <span class="quantidade-item">
@@ -42,7 +38,6 @@
                 </span>
                 <span class="preco-item">R$7,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Cafta</span>
                 <span class="quantidade-item">
@@ -52,7 +47,6 @@
                 </span>
                 <span class="preco-item">R$7,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Coração</span>
                 <span class="quantidade-item">
@@ -62,7 +56,6 @@
                 </span>
                 <span class="preco-item">R$7,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Linguiça</span>
                 <span class="quantidade-item">
@@ -72,7 +65,6 @@
                 </span>
                 <span class="preco-item">R$7,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Queijo</span>
                 <span class="quantidade-item">
@@ -83,9 +75,6 @@
                 <span class="preco-item">R$7,00</span>
             </div>
         </div>
-
-
-
         <div class="categoria" id="montados">
             <h2>Montados</h2>
             <div class="item">
@@ -97,7 +86,6 @@
                 </span>
                 <span class="preco-item">R$13,00</span>
             </div>
-
             <div class="item">
                 <span class="nome-item">Lanche 2 Espetos</span>
                 <span class="quantidade-item">
@@ -117,101 +105,83 @@
                 <span class="preco-item">R$10,00</span>
             </div>
         </div>
-
         <div class="categoria bebidas">
             <h2>Bebidas</h2>
-            <div class="categoria refri-350">
-                <h3>Refri 350 ml</h3>
-                <div class="item">
-                    <span class="nome-item">Coca-cola</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Coca-cola')">-</button>
-                        <input id="Coca-cola" type="number" value="0" min="0">
-                        <button onclick="aumenta('Coca-cola')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-                <div class="item">
-                    <span class="nome-item">Coca-cola zero</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Coca-cola zero')">-</button>
-                        <input id="Coca-cola zero" type="number" value="0" min="0">
-                        <button onclick="aumenta('Coca-cola zero')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-    
-                <div class="item">
-                    <span class="nome-item">Fanta Laranja</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Fanta Laranja')">-</button>
-                        <input id="Fanta Laranja" type="number" value="0" min="0">
-                        <button onclick="aumenta('Fanta Laranja')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-                <div class="item">
-                    <span class="nome-item">Fanta Uva</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Fanta Uva')">-</button>
-                        <input id="Fanta Uva" type="number" value="0" min="0">
-                        <button onclick="aumenta('Fanta Uva')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-                <div class="item">
-                    <span class="nome-item">Guaraná</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Guaraná')">-</button>
-                        <input id="Guaraná" type="number" value="0" min="0">
-                        <button onclick="aumenta('Guaraná')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-                <div class="item">
-                    <span class="nome-item">Coca-cola</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Coca-cola')">-</button>
-                        <input id="Coca-cola" type="number" value="0" min="0">
-                        <button onclick="aumenta('Coca-cola')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-    
+            <div class="item">
+                <span class="nome-item">Coca-cola 350 ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Coca-cola')">-</button>
+                    <input id="Coca-cola 350 ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Coca-cola 350 ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
             </div>
-            <h3>Refri 200ml</h3>
-            <div class="categoria refri-200">
-                <div class="item">
-                    <span class="nome-item">Coca-cola</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Coca-cola')">-</button>
-                        <input id="Coca-cola" type="number" value="0" min="0">
-                        <button onclick="aumenta('Coca-cola')">+</button>
-                    </span>
-                    <span class="preco-item">R$4,00</span>
-                </div>
-                <div class="item">
-                    <span class="nome-item">Sucos</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Sucos')">-</button>
-                        <input id="Sucos" type="number" value="0" min="0">
-                        <button onclick="aumenta('Sucos')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
-                <div class="item">
-                    <span class="nome-item">Alcólicas</span>
-                    <span class="quantidade-item">
-                        <button onclick="diminui('Alcólicas')">-</button>
-                        <input id="Alcólicas" type="number" value="0" min="0">
-                        <button onclick="aumenta('Alcólicas')">+</button>
-                    </span>
-                    <span class="preco-item">R$6,00</span>
-                </div>
+            <div class="item">
+                <span class="nome-item">Coca-cola zero 350 ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Coca-cola zero')">-</button>
+                    <input id="Coca-cola zero 350 ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Coca-cola zero 350 ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
+            </div>
+            <div class="item">
+                <span class="nome-item">Fanta Laranja 350 ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Fanta Laranja')">-</button>
+                    <input id="Fanta Laranja 350 ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Fanta Laranja 350 ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
+            </div>
+            <div class="item">
+                <span class="nome-item">Fanta Uva 350 ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Fanta Uva')">-</button>
+                    <input id="Fanta Uva 350 ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Fanta Uva 350 ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
+            </div>
+            <div class="item">
+                <span class="nome-item">Guaraná 350 ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Guaraná')">-</button>
+                    <input id="Guaraná 350 ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Guaraná 350 ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
+            </div>
+            <div class="item">
+                <span class="nome-item">Coca-cola 200ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Coca-cola')">-</button>
+                    <input id="Coca-cola 200ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Coca-cola 200ml')">+</button>
+                </span>
+                <span class="preco-item">R$4,00</span>
+            </div>
+            <div class="item">
+                <span class="nome-item">Sucos 200ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Sucos')">-</button>
+                    <input id="Sucos 200ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Sucos 200ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
+            </div>
+            <div class="item">
+                <span class="nome-item">Alcólicas 200ml</span>
+                <span class="quantidade-item">
+                    <button onclick="diminui('Alcólicas')">-</button>
+                    <input id="Alcólicas 200ml" type="number" value="0" min="0">
+                    <button onclick="aumenta('Alcólicas 200ml')">+</button>
+                </span>
+                <span class="preco-item">R$6,00</span>
             </div>
         </div>
     </div>
-    <div><button onclick="finalizarPedido()">Finalizar</button></div>
+    <div id="botaofinalizar"><button onclick="finalizarPedido()">Finalizar</button></div>
     <script src="index.js"></script>
 </body>
 

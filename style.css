@@ -2,44 +2,59 @@ input[type=number] {
     width: 2.5rem;
     text-align: center;
 }
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
 }
+
 h1 {
     text-align: center;
 }
+
 .menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* width: fit-content; */
     margin: 0 1rem;
 }
+
 .categoria {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
+
 .nome-item {
     justify-self: left;
 }
+
 .quantidade-item {
     justify-self: center;
 }
+
 .preco-item {
     justify-self: right;
 }
+
 .item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: .5rem .5rem;
     min-width: max-content;
 }
+
 .quantidade-item {
     display: flex;
 }
+
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 99.5%;
+    height: 100%;
+}
+
+#botaofinalizar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
