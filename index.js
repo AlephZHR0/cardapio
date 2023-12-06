@@ -31,7 +31,7 @@ function isNumeric(value) {
 
 function finalizarPedido() {
     const whatsappEndpoint = "https://wa.me/";
-    const numero = "5511967405413";
+    const numero = "5511953411693";
     const parametro = "/?text="
     let mensagemInicial = "Olá, tudo bem?\nSegue meu pedido:";
     let itensPedidos = "";
